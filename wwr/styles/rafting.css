@@ -1,10 +1,10 @@
 :root {
-    --primary-color: #396e94;
-    --secondary-color: #e7c24f;
-    --accent1-color: #007efb;
-    --accent2-color: #381d2a;
-    --heading-font: "Roboto", "Arial" serif;
-    --body-font: Roboto, Arial, sans-serif;
+    --primary-color: #055a05;
+    --secondary-color: #f4a261;
+    --accent1-color: #264653;
+    --accent2-color: #e9c46a;
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -48,12 +48,13 @@ article {
 }
 
 .hero img {
+    position: relative;
     display: block;
     width: 100%;
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -64,7 +65,7 @@ h1 {
     color: #fff;
 }
 
-article {
+.hero article {
     position: absolute;
     margin: 0;
     top: 300px;
