@@ -1,7 +1,7 @@
 :root {
     --primary-color: #055a05;
     --secondary-color: #f4a261;
-    --accent1-color: #264653;
+    --accent1-color: #02b7ff;
     --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -29,6 +29,8 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    margin: 0;
+    padding: 0;
 }
 
 nav,
@@ -37,6 +39,11 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+}
+
+section {
+    margin: 1rem 0;
+    padding: 0;
 }
 
 .socialmedia a {
@@ -82,10 +89,28 @@ article {
     width: 125px;
 }
 
+h2 {
+    margin: 0;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.6;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+section p {
+    margin: 0;
+    width: 100%;
+    padding: 16px;
+    text-align: justify;
+    color: var(--primary-color);
+}
+
 footer {
     border-top: 1px solid rgba(0, 60, 255, 0.4);
     padding-top: 5px;
-    clear: both;
+
 }
 
 .socialmedia img {
