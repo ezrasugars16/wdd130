@@ -1,7 +1,7 @@
 :root {
     --primary-color: #055a05;
 
-    --accent1-color: #02b7ff;
+    --accent1-color: #0f93c8;
 
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -125,7 +125,7 @@ h2 {
     text-align: center;
     opacity: 0.6;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: #000000;
 }
 
 section p {
