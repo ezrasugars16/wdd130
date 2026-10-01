@@ -270,3 +270,12 @@ footer p {
 .contact-heading {
     text-align: center;
 }
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.map {
+    margin-right: 1rem;
+}
