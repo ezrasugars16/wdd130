@@ -41,31 +41,32 @@ article {
 
 header {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: auto 1fr;
     align-items: center;
-
     background-color: #ffffff;
     padding: 15px 100px;
 }
 
 .logo {
-    width: 100px;
+    width: 120px;
     height: auto;
 }
 
 .navigation {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
     list-style: none;
+    justify-content: end;
+}
+
+.navigation li {
+    flex: 1 1 auto;
 }
 
 .navigation a {
     text-decoration: none;
     color: black;
-
     text-align: center;
     padding: 10px 20px;
-
 }
 
 section {
@@ -133,45 +134,8 @@ section p {
     color: var(--primary-color);
 }
 
-footer {
-    border-top: 1px solid rgba(0, 60, 255, 0.4);
-    padding-top: 5px;
-
-}
-
-.socialmedia img {
-    width: 75px;
-    height: auto;
-}
-
-header {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
-}
-
-.navigation {
-    display: flex;
-    list-style: none;
-    justify-content: end;
-}
-
-.navigation li {
-    flex: 1 1 auto;
-}
-
-.navigation a {
-    text-decoration: none;
-}
-
-.logo {
-    width: 120px;
-    height: auto;
-}
-
 .history {
     padding: 0;
-
     background-color: white;
 }
 
@@ -179,12 +143,9 @@ header {
     width: 100%;
     margin: 0;
     padding: 15px;
-
     box-sizing: border-box;
-
     text-align: center;
     color: rgb(6, 6, 6);
-
 }
 
 .history-content {
@@ -205,12 +166,10 @@ header {
 
 .adventures {
     padding: 0px;
-
 }
 
 .adventures h2 {
     text-align: center;
-
 }
 
 .adventure-gallery {
@@ -241,10 +200,10 @@ footer {
     display: grid;
     grid-template-columns: 1fr auto;
     align-items: center;
-
     padding: 2rem;
     background-color: white;
     color: #000000;
+    border-top: 1px solid rgba(0, 60, 255, 0.4);
 }
 
 footer p {
@@ -284,7 +243,7 @@ form {
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    padding: 1 rem;
+    padding: 1rem;
     border: 1px solid rgb(0, 0, 0 / 0.2);
     border-radius: 1rem;
     display: grid;
@@ -313,7 +272,6 @@ form {
     grid-column: 1;
     grid-row: 2;
     padding: 0;
-
 }
 
 .contact-form fieldset label {
