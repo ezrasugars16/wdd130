@@ -326,3 +326,15 @@ textarea {
     padding: 0.5rem;
     font-size: 1rem;
 }
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+input[type="radio"] {
+    width: 15px;
+    height: 15px;
+    vertical-align: bottom;
+}
