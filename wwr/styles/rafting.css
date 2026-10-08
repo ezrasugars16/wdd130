@@ -413,10 +413,6 @@ button {
     padding: 30px;
 }
 
-.newsletter h2 {
-    background-color: rgba(255, 255, 255, 0);
-}
-
 .newsletter form {
     display: flex;
     flex-direction: column;
@@ -436,4 +432,13 @@ button {
     color: white;
     border: none;
     cursor: pointer;
+}
+
+.index-content2 p {
+    text-align: justify;
+    align-self: center;
+}
+
+.index-content2 h2 {
+    background-color: rgba(255, 255, 255, 0);
 }
